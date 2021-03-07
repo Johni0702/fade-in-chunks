@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "fadeinchunks",
+  "version": "${version}",
+
+  "name": "Fade In Chunks",
+  "description": "Adds a (Bedrock-style) fade-in animation to newly loaded chunks.",
+  "authors": [
+    "johni0702"
+  ],
+  "contact": {
+    "homepage": "https://github.com/johni0702/fade-in-chunks",
+    "sources": "https://github.com/johni0702/fade-in-chunks"
+  },
+
+  "license": "LGPL-3.0-or-later",
+  "icon": "assets/fadeinchunks/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+  },
+  "mixins": [
+    "fadeinchunks.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "minecraft": "1.16.x",
+    "sodium": "0.1.x"
+  },
+  "suggests": {
+  },
+
+  "custom": {
+  }
+}

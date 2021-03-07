@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "de.johni0702.minecraft.fadeinchunks.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ChunkGraphicsStateMixin",
+    "ChunkProgramOneshotMixin",
+    "ChunkRenderBackendOneshotMixin",
+    "ChunkRenderShaderBackendMixin",
+    "GL43ChunkRenderBackendMixin",
+    "NioChunkDrawCallVectorMixin",
+    "ShaderLoaderMixin",
+    "UnsafeChunkDrawCallVectorMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
