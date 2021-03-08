@@ -9,8 +9,9 @@
     "johni0702"
   ],
   "contact": {
-    "homepage": "https://github.com/johni0702/fade-in-chunks",
-    "sources": "https://github.com/johni0702/fade-in-chunks"
+    "homepage": "https://modrinth.com/mod/fade-in-chunks",
+    "sources": "https://github.com/johni0702/fade-in-chunks",
+    "issues": "https://github.com/johni0702/fade-in-chunks/issues"
   },
 
   "license": "LGPL-3.0-or-later",
